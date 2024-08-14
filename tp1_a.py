@@ -1,6 +1,8 @@
-#Realizar un programa que pida los tres lados de un triángulo e indique el tipo de 
-##triángulo que es según sus lados: Equilátero (tres lados iguales), Isósceles (dos 
-#lados iguales) o Escaleno (tres lados distintos). 
+""""
+Realizar un programa que pida los tres lados de un triángulo e indique el tipo de 
+triángulo que es según sus lados: Equilátero (tres lados iguales), Isósceles (dos 
+lados iguales) o Escaleno (tres lados distintos). 
+"""
 print("Ingrese el lado a")
 a = int(input())
 print("Ingrese el lado b")
