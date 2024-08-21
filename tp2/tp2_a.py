@@ -25,7 +25,7 @@ while a:
         print(f"la palabra es {palabra} y la invertida es {palabrai}")
     if rt=="palindromo":
         for i in range(0, tope // 2):
-            if palabra[i] != palabra[tope - i - 1]:  # Comparar extremos
+            if palabra[i] != palabra[tope - i - 1]: 
                 palindromo = False
                 break
         if palindromo:
