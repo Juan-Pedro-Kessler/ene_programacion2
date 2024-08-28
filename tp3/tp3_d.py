@@ -1,6 +1,6 @@
 """
-Dado un diccionario de palabras y sus definiciones, crea una lista que contenga sólo 
-las palabras que comienzan con una letra específica (por ejemplo, "a") indicada por 
+Dado un diccionario de cadenas y sus definiciones, crea una lista que contenga sólo 
+las cadenas que comienzan con una letra específica (por ejemplo, "a") indicada por 
 el usuario, utilizando list comprehensions. 
 """
 diccionario = {
@@ -14,7 +14,7 @@ diccionario = {
 
 print("ingresa la letra")
 letra=input()
-# Filtrar palabras que comienzan con la letra específica
-palabras_filtradas = [palabra for palabra in diccionario if palabra.startswith(letra)]
+# Filtrar cadenas que comienzan con la letra específica
+cadenas_filtradas = [cadena for cadena in diccionario if cadena.startswith(letra)]
 
-print(palabras_filtradas)
+print(cadenas_filtradas)
