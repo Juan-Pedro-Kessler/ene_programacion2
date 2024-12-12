@@ -12,3 +12,4 @@ class Evento:
             "fecha": self.__fecha,
             "localizacion_id": self.__localizacion_id,
         }
+

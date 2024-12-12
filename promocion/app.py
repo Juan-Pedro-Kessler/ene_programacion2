@@ -1,11 +1,14 @@
 from flask import Flask
-from rutas.rutas_alumnos import bp_alumnos
-from rutas.rutas_deportes import bp_deportes
+from rutas.rutas_evento import evento_bp
+from rutas.rutas_localizacion import localizacion_bp
+from rutas.rutas_participante import participante_bp
 
 app = Flask(__name__)
 
-app.register_blueprint(bp_alumnos)
-app.register_blueprint(bp_deportes)
+# Registrar Blueprints
+app.register_blueprint(evento_bp)
+app.register_blueprint(localizacion_bp)
+app.register_blueprint(participante_bp)
 
 if __name__ == '__main__':
     app.run(debug=True)
